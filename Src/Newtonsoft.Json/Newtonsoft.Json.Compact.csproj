@@ -67,6 +67,7 @@
     <Compile Include="ConstructorHandling.cs" />
     <Compile Include="Converters\BinaryConverter.cs" />
     <Compile Include="Converters\BsonObjectIdConverter.cs" />
+    <Compile Include="Converters\StringEnumConverterByAttribute.cs" />
     <Compile Include="Converters\CustomCreationConverter.cs" />
     <Compile Include="Converters\DataSetConverter.cs" />
     <Compile Include="Converters\DataTableConverter.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="JsonObjectAttribute.cs" />
     <Compile Include="JsonSerializerSettings.cs" />
     <Compile Include="JsonValidatingReader.cs" />
+    <Compile Include="JsonValueAttribute.cs" />
     <Compile Include="Linq\ComponentModel\JPropertyDescriptor.cs" />
     <Compile Include="Linq\ComponentModel\JTypeDescriptionProvider.cs" />
     <Compile Include="Linq\ComponentModel\JTypeDescriptor.cs" />

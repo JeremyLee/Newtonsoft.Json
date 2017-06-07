@@ -38,7 +38,7 @@ using System.Data.SqlTypes;
 
 namespace Newtonsoft.Json.Utilities
 {
-  internal static class ConvertUtils
+  public static class ConvertUtils
   {
     internal struct TypeConvertKey : IEquatable<TypeConvertKey>
     {

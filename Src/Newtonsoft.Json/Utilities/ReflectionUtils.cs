@@ -35,7 +35,7 @@ using System.Text.RegularExpressions;
 
 namespace Newtonsoft.Json.Utilities
 {
-  internal static class ReflectionUtils
+  public static class ReflectionUtils
   {
     public static Type GetObjectType(object v)
     {

@@ -33,7 +33,7 @@ using System.Globalization;
 
 namespace Newtonsoft.Json.Utilities
 {
-  internal static class StringUtils
+  public static class StringUtils
   {
     public const string CarriageReturnLineFeed = "\r\n";
     public const string Empty = "";
